@@ -7,17 +7,8 @@
     padding: 10px;
 }
 
-#container {
-    vertical-align: middle;
-    justify-content: center;
-}
-
 #linkid:hover {
     color: blue;
     cursor: pointer;
     text-decoration: none;
-}
-
-#test {
-    color: teal;
 }
