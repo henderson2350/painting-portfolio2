@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Photocard from "../components/Photocard/Photocard"
+
 
 function Portraiture() {
     return (
         <div>
             <Navbar />
             Portraiture
+            <Photocard />
         </div>
     )
 }

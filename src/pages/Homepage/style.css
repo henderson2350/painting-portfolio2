@@ -1,0 +1,23 @@
+#linkid {
+    color: pink;
+    font-size: 100px;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    padding: 10px;
+}
+
+#container {
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#linkid:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#test {
+    color: teal;
+}

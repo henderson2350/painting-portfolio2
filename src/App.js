@@ -5,8 +5,9 @@ import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import Available from "./pages/Available";
 import Contact from "./pages/Contact"
-import { HashRouter as Router, Route } from "react-router-dom";
 import Portraiture from "./pages/Portraiture";
+import Footer from "./components/Footer";
+import { HashRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -18,9 +19,8 @@ function App() {
         <Route exact path = "/available" component = {Available} />
         <Route exact path = "/portraiture" component = {Portraiture} />
         <Route exact path = "/contact" component = {Contact} />
-        <p>Created by Clare Henderson using React JS</p>
-        <p>2021</p>
       </div>
+      <Footer />
     </Router>
   );
 }
