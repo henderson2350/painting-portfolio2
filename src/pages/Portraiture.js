@@ -1,13 +1,13 @@
-import React from 'react';
+import React from 'react'
 import Navbar from '../components/Navbar'
 
-function About() {
+function Portraiture() {
     return (
         <div>
             <Navbar />
-            <p>About me</p>
+            Portraiture
         </div>
     )
 }
 
-export default About
+export default Portraiture
