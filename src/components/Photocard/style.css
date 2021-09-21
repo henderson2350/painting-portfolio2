@@ -19,7 +19,7 @@
 }
 
 #divv:hover #photo  {
-    opacity: 20%;
+    opacity: .2;
 }
 
 #photo {
