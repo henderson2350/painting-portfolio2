@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+import { Container } from 'react-bootstrap'
 import "./style.css";
 
 function HomepageContent() {
   return (
-    <div>
-      <p>
+    <div id="content">
+      <p id="text">
         <Link id="linkid" to="/gallery">
-          CLARE HENDERSON
+          <p>CLARE</p>
+          <p>HENDERSON</p>
         </Link>
       </p>
     </div>

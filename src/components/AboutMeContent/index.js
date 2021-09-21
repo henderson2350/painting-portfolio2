@@ -7,9 +7,10 @@ function AboutMeContent() {
     <div>
       <div>
         <p id="about-me-txt">
-          Clare Henderson is a recent graduate from the University of Virginia
-          living and working in New York City. She is represented by the Poppy
-          Society in New Orleans, and Juliette Eberle in NYC. 
+          Clare Henderson is a recent graduate from the University of Virginia, 
+          where she studied French and Painting. She is represented by the Poppy
+          Society in New Orleans, and Juliette Eberle in NYC. She currently lives
+          and works in New York City.
         </p>
       </div>
       <div>

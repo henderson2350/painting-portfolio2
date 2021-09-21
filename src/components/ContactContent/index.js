@@ -7,7 +7,7 @@ function ContactContent() {
       <div id="contact-info">
         <p>clarehendersonart@gmail.com</p>
         <p>+1 404 316 4330</p>
-        <p>@clarehendersonart</p>
+        <p>instagram: @clarehendersonart</p>
       </div>
       <br></br>
       <div id="poppy-info">

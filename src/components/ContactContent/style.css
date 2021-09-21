@@ -2,11 +2,14 @@
     justify-content: center;
 }
 
-#contact-info {
+#contact-info p {
     font-size: 40px;
-    margin-bottom: 20px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0px;
 }
 
 #poppy-info {
     font-size: 20px;
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
 }

@@ -8,7 +8,7 @@ function Photocard(props) {
     <div className="row">
       <div>
         <img id="photo" src={props.data.photo}></img>
-        <p>{captionString}</p>
+        <p id="caption">{captionString}</p>
       </div>
     </div>
   );
