@@ -9,7 +9,7 @@ function Navbar() {
       <nav>
         <NavLink activeStyle={{ color:'#5754a8' }} to="/gallery">Gallery</NavLink>
         <NavLink activeStyle={{ color:'#5754a8' }} to="/about">About</NavLink>
-        <NavLink activeStyle={{ color:'#5754a8' }} to="/portraiture">Portraiture</NavLink>
+        {/* <NavLink activeStyle={{ color:'#5754a8' }} to="/portraiture">Portraiture</NavLink> */}
         <NavLink activeStyle={{ color:'#5754a8' }} to="/available">Available</NavLink>
         <NavLink activeStyle={{ color:'#5754a8' }} to="/contact">Contact</NavLink>
       </nav>
