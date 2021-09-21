@@ -1,16 +1,17 @@
 import React, { useState } from "react";
-import './style.css';
+import "./style.css";
+import { Container, Row, Col } from "react-bootstrap";
+
 import Photocard from "../Photocard";
 import carolineLane from "../../photos/carolineLane.jpg";
 import cartoon from "../../photos/cartoon.jpg";
 import glitterGrain from "../../photos/glitterGrain.jpg";
-import hopeGray from "../../photos/hopeGray.JPG";
 import jewel from "../../photos/jewel.jpg";
 import joHerget from "../../photos/joHerget.jpg";
 import priceCiolino from "../../photos/priceCiolino.jpg";
 
 function GalleryContainer() {
-  const [data, setData] = useState([
+  const data1 = [
     {
       title: "Commission",
       price: "SOLD",
@@ -23,6 +24,9 @@ function GalleryContainer() {
       photo: cartoon,
       description: "Gouache, acrylic, and resin on panel, 24x36",
     },
+  ];
+
+  const data2 = [
     {
       title: "Glitter grain",
       price: "$1000",
@@ -30,17 +34,14 @@ function GalleryContainer() {
       description: "Gouache, acrylic, and glitter on panel, 20x20",
     },
     {
-      title: "Commission",
-      price: "SOLD",
-      photo: hopeGray,
-      description: "Oil, acrylic, and resin on panel, 30x30",
-    },
-    {
       title: "Jewel",
       price: "SOLD",
       photo: jewel,
       description: "Oil, acrylic, and resin on panel, 30x30",
-    },
+    }
+  ]
+
+  const data3 = [
     {
       title: "Commission",
       price: "SOLD",
@@ -53,14 +54,29 @@ function GalleryContainer() {
       photo: priceCiolino,
       description: "Acrylic and resin on panel, 2 10x20",
     },
-  ]);
+  ]
 
   return (
-    <div id="gallery-container" className="row">
-      {data.map((unitData) => (
-        <Photocard data={unitData} />
-      ))}
-    </div>
+    <Container id="gallery-container">
+      <Row>
+        <Col>
+        {data1.map((unitData) => (
+          <Photocard data={unitData} />
+        ))}
+        </Col>
+        <Col>
+        {data2.map((unitData) => (
+          <Photocard data={unitData} />
+        ))}
+        </Col>
+        <Col>
+        {data3.map((unitData) => (
+          <Photocard data={unitData} />
+        ))}
+        </Col>
+      </Row>
+      
+    </Container>
   );
 }
 
