@@ -57,7 +57,6 @@ function GalleryContainer() {
 
   return (
     <div id="gallery-container" className="row">
-      <p>Gallery</p>
       {data.map((unitData) => (
         <Photocard data={unitData} />
       ))}
