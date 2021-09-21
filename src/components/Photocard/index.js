@@ -6,7 +6,7 @@ function Photocard(props) {
     props.data.title + ", " + props.data.description + ", " + props.data.price;
   return (
     <div className="row">
-      <div>
+      <div id="divv">
         <img id="photo" src={props.data.photo}></img>
         <p id="caption">{captionString}</p>
       </div>
