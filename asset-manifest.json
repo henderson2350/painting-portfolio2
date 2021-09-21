@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/painting-portfolio2/static/css/main.7cd5b5f8.chunk.css",
-    "main.js": "/painting-portfolio2/static/js/main.b0c88b95.chunk.js",
-    "main.js.map": "/painting-portfolio2/static/js/main.b0c88b95.chunk.js.map",
+    "main.css": "/painting-portfolio2/static/css/main.161b7a8b.chunk.css",
+    "main.js": "/painting-portfolio2/static/js/main.a1cebab0.chunk.js",
+    "main.js.map": "/painting-portfolio2/static/js/main.a1cebab0.chunk.js.map",
     "runtime-main.js": "/painting-portfolio2/static/js/runtime-main.8affa609.js",
     "runtime-main.js.map": "/painting-portfolio2/static/js/runtime-main.8affa609.js.map",
     "static/css/2.818011ed.chunk.css": "/painting-portfolio2/static/css/2.818011ed.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.dd7a9649.chunk.js.map": "/painting-portfolio2/static/js/3.dd7a9649.chunk.js.map",
     "index.html": "/painting-portfolio2/index.html",
     "static/css/2.818011ed.chunk.css.map": "/painting-portfolio2/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.7cd5b5f8.chunk.css.map": "/painting-portfolio2/static/css/main.7cd5b5f8.chunk.css.map",
+    "static/css/main.161b7a8b.chunk.css.map": "/painting-portfolio2/static/css/main.161b7a8b.chunk.css.map",
     "static/js/2.d2050350.chunk.js.LICENSE.txt": "/painting-portfolio2/static/js/2.d2050350.chunk.js.LICENSE.txt",
     "static/media/about-photo.7b1cdcab.jpg": "/painting-portfolio2/static/media/about-photo.7b1cdcab.jpg",
     "static/media/style.css": "/painting-portfolio2/static/media/background.69017a6d.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.8affa609.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.d2050350.chunk.js",
-    "static/css/main.7cd5b5f8.chunk.css",
-    "static/js/main.b0c88b95.chunk.js"
+    "static/css/main.161b7a8b.chunk.css",
+    "static/js/main.a1cebab0.chunk.js"
   ]
 }
